@@ -19,7 +19,7 @@ class _LuasBangunDatarPersegiState extends State<LuasBangunDatarPersegi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Luas Persegi Panjang"),
+        title: Text("Luas Persegi"),
       ),
       body: Container(
         margin: EdgeInsets.all(10),
