@@ -55,11 +55,11 @@ class _FormRegistrationState extends State<FormRegistration> {
               Radio(
                   value: 1,
                   groupValue: id,
-                  onChanged: () {
+                  onChanged: (val) {
                     setState(() {
                       id = 1;
                     });
-                  }()),
+                  }),
               Text("Male")
             ]),
             Row(
@@ -67,11 +67,11 @@ class _FormRegistrationState extends State<FormRegistration> {
                 Radio(
                     value: 2,
                     groupValue: id,
-                    onChanged: () {
+                    onChanged: (val) {
                       setState(() {
                         id = 2;
                       });
-                    }()),
+                    }),
                 Text("female")
               ],
             ),
