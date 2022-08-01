@@ -75,7 +75,7 @@ class _FormRegistrationState extends State<FormRegistration> {
                 Text("female")
               ],
             ),
-            Text("Phone : "+myPhone),
+            Text("Phone number : "+myPhone),
             ElevatedButton(
                 onPressed: () async {
                   final result = await Navigator.push(
